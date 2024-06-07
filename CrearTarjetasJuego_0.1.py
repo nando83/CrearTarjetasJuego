@@ -99,7 +99,7 @@ def generate_pdf(words, background_image, background_image_alternate):
                             c.drawCentredString(x + cell_width / 2, y + cell_height / 2 - 26, "UP!")
                         
                         # Dibujar la celda
-                        c.roundRect(x, y, cell_width, cell_height, 20, stroke=1, fill=0)
+                        #c.roundRect(x, y, cell_width, cell_height, 20, stroke=1, fill=0)
 
             else:
                 # c.drawImage(bg_image, 0, 0, width=width, height=height)
